@@ -170,7 +170,7 @@ table{
     font-size: medium;
     padding: .5rem 1rem;
 }
-.Project .Row{
+.Project,.Experience .Row{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -178,20 +178,29 @@ table{
     padding: 3rem 0;
 }
 
-.Project .Row .det{
+.Project,.Experience .Row .det{
     flex: 1 1 48rem;
     padding: 2rem 1rem;
     padding-left: 8rem;
 }
 
-.Project .Row .det h3{
+.Project ,.Experience .Row .det h3{
     font-size: 2rem;
-    color: yellow;
+    color: white;
     padding: 1rem 0;
     font-weight: normal;
 }
 
-.Project .Row .det h3 span{
+.Project.Experience .Row .det h3 span{
     color: #eee;
     padding: 0. 5rem;
 }
+
+
+.er{
+    text-decoration: solid;
+    font-weight: bold;
+}
+
+
+
